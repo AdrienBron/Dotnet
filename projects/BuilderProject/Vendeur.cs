@@ -1,9 +1,24 @@
 using System;
-public class Vendeur :
+
+namespace Builder;
+
+public class Vendeur
 {
-  ConstructeurLiasseVehicule construit(string type, string name, int numero);
-  public override void construit(string type, string name, int numero)
-  {
-    
-  }
+    protected ConstructeurLiasseVehicule _constructeur;
+
+    public Vendeur(ConstructeurLiasseVehicule constructeur)
+    {
+        _constructeur = constructeur; // designe l'instance
+        // en cours d'utilisation
+    }
+
+    public Liasse Construit(string nomClient)
+    {
+        _constructeur.ConstruitBonDeCommande(nomClient);
+        _constructeur.ConstruitDemandeImmatriculation(nomClient);
+
+        Liasse liasse = _constructeur.Resultat();
+
+        return liasse;
+    }
 }

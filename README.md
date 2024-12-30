@@ -105,3 +105,4 @@ Run : dotnet run
 
 ### 5.1. Description
 
+Composition : Mécanisme permettant a une classe de contenir une instance de cette meme classe ou d'une autre

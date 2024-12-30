@@ -1,10 +1,11 @@
 using System;
 
-public interface Liasse
-{
-  LiasseHtml creeAutomobile(string modele, string couleur,
-    int puissance, double espace);
+namespace Builder;
 
-  LiassePdf creeScooter(string modele, string couleur, int
-    puissance);
+public abstract class Liasse
+{
+    protected IList<string> contenu = new List<string>(); // List<T> est un type generique
+
+    public abstract void ajouteDocument(string document);
+    public abstract void imprime();
 }
