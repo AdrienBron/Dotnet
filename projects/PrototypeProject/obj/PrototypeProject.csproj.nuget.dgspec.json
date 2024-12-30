@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\ConsoleProject\\ConsoleProject.csproj": {}
+    "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\PrototypeProject\\PrototypeProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\ConsoleProject\\ConsoleProject.csproj": {
+    "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\PrototypeProject\\PrototypeProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\ConsoleProject\\ConsoleProject.csproj",
-        "projectName": "ConsoleProject",
-        "projectPath": "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\ConsoleProject\\ConsoleProject.csproj",
+        "projectUniqueName": "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\PrototypeProject\\PrototypeProject.csproj",
+        "projectName": "PrototypeProject",
+        "projectPath": "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\PrototypeProject\\PrototypeProject.csproj",
         "packagesPath": "C:\\Users\\adrie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\ConsoleProject\\obj\\",
+        "outputPath": "C:\\Users\\adrie\\Desktop\\Isitech\\Dotnet\\Dotnet\\projects\\PrototypeProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adrie\\AppData\\Roaming\\NuGet\\NuGet.Config",

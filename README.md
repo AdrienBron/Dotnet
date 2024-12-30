@@ -106,3 +106,67 @@ Run : dotnet run
 ### 5.1. Description
 
 Composition : Mécanisme permettant a une classe de contenir une instance de cette meme classe ou d'une autre
+
+## Chapitre 7 Le pattern Prototype
+
+### 7.1. Description
+
+- Création de nouveaux objets par duplication d'objets existants
+- On les appelle Prototype
+- Capacité de clonages 
+
+
+## Chapitre 8 Le pattern Singleton
+
+### 8.1. Description
+
+- Le pattern Singleton permet d'assurer qu'une classe ne possede qu'une seule instance au cours de l'execution du programme
+- Une methode de classe unique qui retourne cette instance
+
++-----------------+
+|    Document     |
++-----------------+
+| - contenu : string |
++-----------------+
+| + clone() : Document |
+| + affiche() : void   |
++-----------------+
+
+             ▲
+             │
+    +--------------------+
+    | CertificatCession  |
+    +--------------------+
+    | + clone() : Document |
+    +--------------------+
+
+    +-----------------------+
+    | DemandeImmatriculation|
+    +-----------------------+
+    | + clone() : Document  |
+    +-----------------------+
+
+    +------------------+
+    | BonDeCommande    |
+    +------------------+
+    | + clone() : Document |
+    +------------------+
+
++-----------------+
+|     Liasse      |
++-----------------+
+| - documents : List<Document> |
++-----------------+
+| + ajouteDocument(doc : Document) : void |
+| + supprimeDocument(doc : Document) : void |
+| + affiche() : void                        |
+| + clone() : Liasse                        |
++-----------------+
+
++-----------------+
+|   LiasseVierge  |
++-----------------+
+| - instance : Liasse (static) |
++-----------------+
+| + getInstance() : Liasse     |
++-----------------+
