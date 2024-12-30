@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\bin\Debug\net8.0\AbstractFactoryProject.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\bin\Debug\net8.0\AbstractFactoryProject.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\bin\Debug\net8.0\AbstractFactoryProject.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\bin\Debug\net8.0\AbstractFactoryProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\bin\Debug\net8.0\AbstractFactoryProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\refint\AbstractFactoryProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\AbstractFactoryProject.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\AbstractFactoryProject\obj\Debug\net8.0\ref\AbstractFactoryProject.dll

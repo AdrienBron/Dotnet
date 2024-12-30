@@ -1,0 +1,18 @@
+using System;
+
+public class LiassePdf : FabriqueVehicule
+{
+  public Automobile ajouterDocument(string modele, string
+    couleur, int puissance, double espace)
+  {
+    return new AutomobileElectricite(modele, couleur,
+      puissance, espace);
+  }
+
+  public Scooter creeScooter(string modele, string
+    couleur, int puissance)
+  {
+    return new ScooterElectricite(modele, couleur,
+      puissance);
+  }
+}
