@@ -101,11 +101,16 @@ Run : dotnet run
 
 - Signature de méthode : public void Document()
 
+![alt text](image-3.png)
+
+
 ## Chapitre 5​ Le pattern Builder
 
 ### 5.1. Description
 
 Composition : Mécanisme permettant a une classe de contenir une instance de cette meme classe ou d'une autre
+
+![alt text](<image-5 (1).png>)
 
 ## Chapitre 7 Le pattern Prototype
 
@@ -115,6 +120,19 @@ Composition : Mécanisme permettant a une classe de contenir une instance de cet
 - On les appelle Prototype
 - Capacité de clonages 
 
+![alt text](image.png)
+
+### 7.4. Domaines d’utilisation
+
+- Le design pattern Prototype permet de créer des copies d'objets existants sans rendre le code dépendant de leurs classes concrètes. Au lieu de créer un objet a partir de zéro, on clone un objet existant (le prototype) et on le modifie si besoin.
+- C'est comme faire une photocopie d'un document : on copie l'original et on peut modifier la copie
+- L'avantage ^rincipal est la création d'objets complexes simplifié
+- Cas d'usage :
+    - Objets avec de nombreuse configuration (editeur graphique : formes geometriques)
+    - En jeux vidéo, création d'enemis et leur variations en grande quantité
+    - Création d'une configuration par defaut dans un jeu/logiciel (permet de restaurer le defaut rapidement et de configurer a nouveau)
+    - Pour éviter la création d'objets systèmes couteux : connexions réseaux, ressources partagées...
+
 
 ## Chapitre 8 Le pattern Singleton
 
@@ -122,4 +140,27 @@ Composition : Mécanisme permettant a une classe de contenir une instance de cet
 
 - Le pattern Singleton permet d'assurer qu'une classe ne possede qu'une seule instance au cours de l'execution du programme
 - Une methode de classe unique qui retourne cette instance
+
+## Chapitre 9​ Introduction aux patterns de structuration
+
+### 9.1. Présentation
+
+- Facilite l'indépendance de l'interface d'un objet vis-à-vis de son implémrntation. Dans le cas d'un ensemble d'objets, il s'agit aussi de rendre cette interface indépendante de la hiérarchie des classes et de la composition des objets.
+- Les patterns de structuration encapsule la composition des objets (augmentation du niveau d'abstraction)
+- Précédemment les patterns de création encapsulaient la création des objets.
+
+## Chapitre 10​ Le pattern Adapter
+
+### 10.1. Description
+
+- Convertir l'interface d'une classe existante en une interface attendue par ses clients (afin qu'ils puissent travailler ensemble)
+- Autrement dit c'est fournir une nouvelle 
+
+![alt text](image-10.png)
+
+## Chapitre 11​ Le pattern Bridge
+
+### 11.1. Description
+
+- Séparer l'aspect d'implémentation d'un objet de son aspect représentation et d'interface
 

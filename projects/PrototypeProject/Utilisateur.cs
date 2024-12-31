@@ -8,7 +8,7 @@ public class Utilisateur
     liasseVierge.ajoute(new BonDeCommande());
     liasseVierge.ajoute(new CertificatCession());
     liasseVierge.ajoute(new DemandeImmatriculation());
-    // création d'une nouvelle liasse pour deux clients
+    // crï¿½ation d'une nouvelle liasse pour deux clients
     LiasseClient liasseClient1 = new LiasseClient(
       "Martin");
     LiasseClient liasseClient2 = new LiasseClient(
