@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\bin\Debug\net8.0\PrototypeProject.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\bin\Debug\net8.0\PrototypeProject.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\bin\Debug\net8.0\PrototypeProject.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\bin\Debug\net8.0\PrototypeProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\bin\Debug\net8.0\PrototypeProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\refint\PrototypeProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\PrototypeProject.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\PrototypeProject\obj\Debug\net8.0\ref\PrototypeProject.dll
