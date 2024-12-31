@@ -164,3 +164,11 @@ Composition : Mécanisme permettant a une classe de contenir une instance de cet
 
 - Séparer l'aspect d'implémentation d'un objet de son aspect représentation et d'interface
 
+## Chapitre 13​ Le pattern Decorator
+
+### 13.1. Description
+
+- Le but du pattern est d'ajouter dynamiquement des fonctionnalités supplementaires à a un object
+- Aucune modification de l'interface de l'objet
+- Transparent vis-a-vis des clients
+- Une alternative à la création d'une sous-classe pour enrichir un objet
