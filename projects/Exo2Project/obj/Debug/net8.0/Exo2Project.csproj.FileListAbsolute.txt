@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\bin\Debug\net8.0\Exo2Project.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\bin\Debug\net8.0\Exo2Project.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\bin\Debug\net8.0\Exo2Project.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\bin\Debug\net8.0\Exo2Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\bin\Debug\net8.0\Exo2Project.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\refint\Exo2Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\Exo2Project.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo2Project\obj\Debug\net8.0\ref\Exo2Project.dll
