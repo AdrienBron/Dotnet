@@ -1,34 +1,25 @@
 using System;
+
 public abstract class ObjetBase
-    {
-        protected ObjetBase suivant;
-        protected string descriptionParDefaut;
+{
+  public ObjetBase suivant { protected get; set; }
 
-        public ObjetBase(string descriptionParDefaut)
-        {
-            this.descriptionParDefaut = descriptionParDefaut;
-        }
+  private string descriptionParDefaut()
+  {
+    return "description par défaut";
+  }
 
-        public void DefinirSuivant(ObjetBase suivant)
-        {
-            this.suivant = suivant;
-        }
+  protected abstract string description { get; }
 
-        protected abstract string GetDescription();
-
-        public string DonnerDescription()
-        {
-            string resultat = this.GetDescription();
-            if (!string.IsNullOrEmpty(resultat))
-            {
-                return resultat;
-            }
-
-            if (suivant != null)
-            {
-                return suivant.DonnerDescription();
-            }
-
-            return this.descriptionParDefaut;
-        }
-    }
+  public string donneDescription()
+  {
+    string resultat;
+    resultat = this.description;
+    if (resultat != null)
+      return resultat;
+    if (suivant != null)
+      return suivant.donneDescription();
+    else
+      return this.descriptionParDefaut();
+  }
+}

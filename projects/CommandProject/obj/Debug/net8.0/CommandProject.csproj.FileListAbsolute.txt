@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\bin\Debug\net8.0\CommandProject.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\bin\Debug\net8.0\CommandProject.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\bin\Debug\net8.0\CommandProject.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\bin\Debug\net8.0\CommandProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\bin\Debug\net8.0\CommandProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\refint\CommandProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\CommandProject.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\CommandProject\obj\Debug\net8.0\ref\CommandProject.dll

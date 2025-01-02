@@ -1,17 +1,19 @@
 using System;
 
 public class Vehicule : ObjetBase
+{
+  protected string laDescription;
+
+  public Vehicule(string description)
+  {
+    this.laDescription = description;
+  }
+
+  protected override string description
+  {
+    get
     {
-        private string description;
-
-        public Vehicule(string description, string descriptionParDefaut)
-            : base(descriptionParDefaut)
-        {
-            this.description = description;
-        }
-
-        protected override string GetDescription()
-        {
-            return description;
-        }
-    }
+     return laDescription;
+    }   
+  }
+}

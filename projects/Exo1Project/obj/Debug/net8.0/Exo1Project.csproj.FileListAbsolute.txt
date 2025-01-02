@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\bin\Debug\net8.0\Exo1Project.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\bin\Debug\net8.0\Exo1Project.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\bin\Debug\net8.0\Exo1Project.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\bin\Debug\net8.0\Exo1Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\bin\Debug\net8.0\Exo1Project.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\refint\Exo1Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\Exo1Project.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\Exo1Project\obj\Debug\net8.0\ref\Exo1Project.dll

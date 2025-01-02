@@ -2,16 +2,23 @@ using System;
 
 public class Modele : ObjetBase
 {
-    private string description;
+  protected string laDescription;
+  protected string nom;
 
-    public Modele(string description, string descriptionParDefaut)
-        : base(descriptionParDefaut)
-    {
-        this.description = description;
-    }
+  public Modele(string nom, string description)
+  {
+    this.laDescription = description;
+    this.nom = nom;
+  }
 
-    protected override string GetDescription()
+  protected override string description
+  {
+   get
     {
-        return description;
+     if (laDescription != null)
+      return "Modèle " + nom + " : " + laDescription;
+     else
+      return null;
     }
+  }
 }

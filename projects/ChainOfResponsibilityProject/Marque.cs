@@ -2,16 +2,29 @@ using System;
 
 public class Marque : ObjetBase
 {
-    private string description;
+  protected string description1, description2;
+  protected string nom;
 
-    public Marque(string description, string descriptionParDefaut)
-        : base(descriptionParDefaut)
-    {
-        this.description = description;
-    }
+  public Marque(string nom, string description1, string
+    description2)
+  {
+    this.description1 = description1;
+    this.description2 = description2;
+    this.nom = nom;
+  }
 
-    protected override string GetDescription()
+
+  protected override string description
+  {
+   get
     {
-        return description;
+      if ((description1 != null) && (description2 != null))
+       return "Marque " + nom + " : " + description1 + " "
+         + description2;
+      else if (description1 != null)
+       return "Marque " + nom + " : " + description1;
+      else
+       return null;
     }
+  }
 }

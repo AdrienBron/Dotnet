@@ -195,3 +195,9 @@ Composition : Mécanisme permettant a une classe de contenir une instance de cet
 
 - Une chaine d'objets doit gérer une requetes selon un ordre défini dynamiquement
 - La facon dont une chaine d'objets gère une reqete ne doit pas etre connue par ses clients
+
+## Chapitre 19 ​Le pattern Command
+
+### 19.1. Description
+
+- Command permet de transfirmer une requete en un objet, ce qui facilite les opérations comme les annulations ou les "retour en arrière", ou encore les mises en file d'attente des demandes et leur suivi.
