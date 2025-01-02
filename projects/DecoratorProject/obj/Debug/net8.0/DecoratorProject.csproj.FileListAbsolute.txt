@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\bin\Debug\net8.0\DecoratorProject.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\bin\Debug\net8.0\DecoratorProject.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\bin\Debug\net8.0\DecoratorProject.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\bin\Debug\net8.0\DecoratorProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\bin\Debug\net8.0\DecoratorProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\refint\DecoratorProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\DecoratorProject.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DecoratorProject\obj\Debug\net8.0\ref\DecoratorProject.dll
