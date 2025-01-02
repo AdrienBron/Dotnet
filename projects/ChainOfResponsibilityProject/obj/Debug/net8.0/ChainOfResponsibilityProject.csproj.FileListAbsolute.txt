@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\bin\Debug\net8.0\ChainOfResponsibilityProject.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\bin\Debug\net8.0\ChainOfResponsibilityProject.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\bin\Debug\net8.0\ChainOfResponsibilityProject.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\bin\Debug\net8.0\ChainOfResponsibilityProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\bin\Debug\net8.0\ChainOfResponsibilityProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\refint\ChainOfResponsibilityProject.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ChainOfResponsibilityProject.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\ChainOfResponsibilityProject\obj\Debug\net8.0\ref\ChainOfResponsibilityProject.dll

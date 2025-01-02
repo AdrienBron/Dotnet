@@ -168,7 +168,30 @@ Composition : Mécanisme permettant a une classe de contenir une instance de cet
 
 ### 13.1. Description
 
-- Le but du pattern est d'ajouter dynamiquement des fonctionnalités supplementaires à a un object
+- Le but du pattern est d'ajouter dynamiquement des fonctionnalités supplementaires à un object
 - Aucune modification de l'interface de l'objet
 - Transparent vis-a-vis des clients
 - Une alternative à la création d'une sous-classe pour enrichir un objet
+
+## Chapitre 17​ Introduction aux patterns de comportement
+
+### 17.1. Présentation
+
+- Objectif : fournir des solutions pour distribuer les traitements et les algorithmes entre les objecs.
+
+## Chapitre 18​ Le pattern Chain of Responsibility
+
+### 18.1. Description
+
+- Construit une chaine d'objets telle que si un objet de la chaine ne peut pas répondre a la requete, il puisse la transmettre a son successeur jusqu'à ce que l'un des objets répondent
+
+### 18.2. Exemple
+
+- Catalogue de véhicule 
+- Description de véhicule
+- Liaison d'objet en allant du plus spécifique (véhicule) au mois spécifique (description par défaut)
+
+### 18.4. Domaines d’application
+
+- Une chaine d'objets doit gérer une requetes selon un ordre défini dynamiquement
+- La facon dont une chaine d'objets gère une reqete ne doit pas etre connue par ses clients
