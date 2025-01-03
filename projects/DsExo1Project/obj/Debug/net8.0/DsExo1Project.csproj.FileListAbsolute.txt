@@ -1,0 +1,15 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\bin\Debug\net8.0\DsExo1Project.exe
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\bin\Debug\net8.0\DsExo1Project.deps.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\bin\Debug\net8.0\DsExo1Project.runtimeconfig.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\bin\Debug\net8.0\DsExo1Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\bin\Debug\net8.0\DsExo1Project.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.sourcelink.json
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\refint\DsExo1Project.dll
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.pdb
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\DsExo1Project.genruntimeconfig.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo1Project\obj\Debug\net8.0\ref\DsExo1Project.dll

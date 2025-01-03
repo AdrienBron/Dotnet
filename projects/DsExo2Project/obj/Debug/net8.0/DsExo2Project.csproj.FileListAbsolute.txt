@@ -1,0 +1,5 @@
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo2Project\obj\Debug\net8.0\DsExo2Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo2Project\obj\Debug\net8.0\DsExo2Project.AssemblyInfoInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo2Project\obj\Debug\net8.0\DsExo2Project.AssemblyInfo.cs
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo2Project\obj\Debug\net8.0\DsExo2Project.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Desktop\Isitech\Dotnet\Dotnet\projects\DsExo2Project\obj\Debug\net8.0\DsExo2Project.sourcelink.json

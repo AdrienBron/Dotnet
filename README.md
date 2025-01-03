@@ -201,3 +201,180 @@ Composition : Mécanisme permettant a une classe de contenir une instance de cet
 ### 19.1. Description
 
 - Command permet de transfirmer une requete en un objet, ce qui facilite les opérations comme les annulations ou les "retour en arrière", ou encore les mises en file d'attente des demandes et leur suivi.
+
+
+# DS
+
+## Exo1:
+
+1. L'ajout ou la modification de nouveaux traitements est difficile  sans devoir toucher au code existant​​.
+
+2. Pour ajouter un nouveau traitement au code, il faudrait introduire un design pattern comme le Decorator pour que les traitements sois sous forme de classes séparées. Cela permettrait d'ajouter ou de modifier des traitements facilement​.
+
+Mais si on utilise l'a facon de faire actuel il faut :
+Ajouter une nouvelle propriété booléenne pour l'état du traitement.
+Ajouter une méthode qui active ce traitement avec la propriété à true.
+Modifier la méthode GetContenu() pour avoir une condition pour la logique du nouveau traitement
+
+3. L'ajout de multiples traitements combinés dans le code actuel modifie GetContenu en la rendent plus grosse et plus complexe, ce qui est difficile à maintenir et à étendre.
+
+4. Le composant de base est l'interface IRapport, implémentée par RapportIncident. Les décorateurs sont RapportDecorator (classe abstraite), RapportAnonyme, RapportChiffre, RapportSigne, et RapportJournalise, qui héritent tous de RapportDecorator.
+
+5. On utilise l'interface IRapport pour définir des méthodes commune (GetContenu et GetAuteur) que doivent respecter les composants, RapportIncident ou RapportDecorator. Cela permet d'utiliser les décorateurs sans que le code client connaisse leurs détails.
+
+6. RapportDecorator sert de base pour les décorateurs. Elle délègue les appels aux méthodes, et permet aux sous-classes d'ajouter ou de modifier des comportements.
+
+7. 
+using System;
+
+// Interface IRapport
+public interface IRapport
+{
+    string GetContenu();
+    string GetAuteur();
+}
+
+public class RapportIncident : IRapport
+{
+    private string contenu;
+    private string auteur;
+
+    public RapportIncident(string contenu, string auteur)
+    {
+        this.contenu = contenu;
+        this.auteur = auteur;
+    }
+
+    public string GetContenu()
+    {
+        return contenu;
+    }
+
+    public string GetAuteur()
+    {
+        return auteur;
+    }
+}
+
+public abstract class RapportDecorator : IRapport
+{
+    protected IRapport rapport;
+
+    public RapportDecorator(IRapport rapport)
+    {
+        this.rapport = rapport;
+    }
+
+    public virtual string GetContenu()
+    {
+        return rapport.GetContenu();
+    }
+
+    public virtual string GetAuteur()
+    {
+        return rapport.GetAuteur();
+    }
+}
+
+public class RapportAnonyme : RapportDecorator
+{
+    public RapportAnonyme(IRapport rapport) : base(rapport) { }
+
+    public override string GetContenu()
+    {
+        return rapport.GetContenu().Replace("identifiant", "***").Replace("password", "***");
+    }
+
+    public override string GetAuteur()
+    {
+        return "ANONYME";
+    }
+}
+
+public class RapportChiffre : RapportDecorator
+{
+    public RapportChiffre(IRapport rapport) : base(rapport) { }
+
+    public override string GetContenu()
+    {
+        var contenu = rapport.GetContenu();
+        return Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(contenu));
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        IRapport rapport = new RapportIncident(
+            "Intrusion détectée. identifiant: admin, password: 123456",
+            "John Doe"
+        );
+
+        Console.WriteLine($"Auteur : {rapport.GetAuteur()}");
+        Console.WriteLine($"Contenu : {rapport.GetContenu()}");
+    }
+}
+
+8. 
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        IRapport rapport = new RapportIncident(
+            "Intrusion détectée. identifiant: admin, password: 123456",
+            "John Doe"
+        );
+        rapport = new RapportAnonyme(rapport);
+        rapport = new RapportChiffre(rapport);
+
+        Console.WriteLine($"Auteur : {rapport.GetAuteur()}");
+        Console.WriteLine($"Contenu : {rapport.GetContenu()}");
+    }
+}
+
+9. Par exemple, si ont applique d'abord RapportChiffre puis RapportAnonyme, sa rendra l'anonymisation inutile car les données sensibles seront déjà chiffrées. Et appliquer RapportAnonyme avant RapportChiffre garantit que les données sont anonymisées avant d'être chiffrées​.
+
+10. Un exemple concret est la création d'un rapport contenant des données sensibles, comme : "identifiant: admin, password: 123456". Si le décorateur RapportChiffre est appliqué avant RapportAnonyme, les données seront chiffrées sans être anonymisées, et donc sa expose les informations une fois déchiffrées. Et appliquer d'abord RapportAnonyme garantit que les données sensibles sont masquées avant d'etre ciffrer, donc meilleure sécurité​.
+
+## Exo2 :
+
+11. Il peut y avoir une incohérence des logs si plusieurs instances écrivent dans le même fichier ou base de données. Sa augmentent le risque d'erreurs et rend le système difficile à maintenir​.
+
+12. La gestion actuelle des ressources pose problème car chaque instance de SystemLogger ouvre indépendamment le fichier ou la connexion à la base de données, ce qui peut entraîner des conflits d'accès et des corruptions de données. 
+Si plusieurs services écrivent simultanément dans le fichier, des exceptions ou des erreurs d'écritures peuvent se produire, rendant les logs incohérents.
+
+13. Le design pattern Singleton. Il sert justement a garantir une seul instance, il en crée une uniquement si il y en a pas encore, sinon il conserve la meme.
+
+14. Ce pattern assure qu'une classe n'a qu'une seule instance active pendant l'exécution du programme.
+Cela résoudrait les problèmes en évitant ainsi la duplication des connexions​.
+
+15. 
+public class SystemLogger
+{
+    private static SystemLogger _instance = null;
+    private StreamWriter logFile;
+
+    private SystemLogger()
+    {
+        logFile = new StreamWriter("system_logs.txt", true);
+    }
+
+    public static SystemLogger GetInstance()
+    {
+        if (_instance == null)
+          _instance = new SystemLogger ();
+        return _instance;
+    }
+
+    public void Log(string message)
+    {
+        string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        logFile.WriteLine($"[{timestamp}] {message}");
+        logFile.Flush();
+    }
+}
+
+16. 
+![alt text](DsExo2-UML.PNG)
